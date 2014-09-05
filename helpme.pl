@@ -9,3 +9,5 @@ print "Which program do you need help with? ";
 chomp( my $program = <STDIN> );
 
 say "Run this command: 'man $program' (without quotes)";
+say "Alternatively: '$program /?' (without quotes)";
+say "Alternatively: '$program --help' (without quotes)";
