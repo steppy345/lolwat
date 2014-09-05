@@ -1,8 +1,11 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w
+
+use feature qw(say);
+use strict;
 
 #For the helps
 
 print "Which program do you need help with? ";
 chomp( my $program = <STDIN> );
 
-print "Run this command: 'man $program' (without quotes)\n";
+say "Run this command: 'man $program' (without quotes)";
